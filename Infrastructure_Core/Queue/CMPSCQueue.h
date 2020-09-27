@@ -1,0 +1,11 @@
+#ifndef INFRASTRUCTURE_CORE_QUEUE_CMPSCQUEUE_H
+#define INFRASTRUCTURE_CORE_QUEUE_CMPSCQUEUE_H
+
+
+class CMPSCQueue
+{
+public:
+    CMPSCQueue();
+};
+
+#endif // CMPSCQUEUE_H
