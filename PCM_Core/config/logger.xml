@@ -1,0 +1,14 @@
+<config>
+        <disruptor>
+                <ring_buffer_element_size value="2048" desc="Element size X, Options are - 0 == X --> Shallow disruptor, else X must be a power of 2"/>
+                <ring_buffer_element_capacity value="1024" desc="Number of elements in ring buffer, must be a power of 2"/>
+                <disruptor_producer_strategy value="single_threaded" desc="Options are - single_threaded/multi_threaded"/>
+                <disruptor_consumer_strategy value="blocking" desc="Options are - blocking/yield/busy_wait"/>
+        </disruptor>
+        <handlers>
+                <handler type="console" trace="true" debug="true" info="true" warn="true" error="true"/>
+        </handlers>
+        <loggers>
+                <logger name="ROOT" trace="true" debug="true" info="true" warn="true" error="true"/>
+        </loggers>
+</config>

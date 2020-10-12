@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="PCM_Core"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/s3v3rian/audio_core/PCM_Core_Debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/s3v3rian/audio_core/PCM_Core_Debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/s3v3rian/audio_core/PCM_Core_Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/s3v3rian/audio_core/PCM_Core_Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/s3v3rian/audio_core/PCM_Core_Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/s3v3rian/audio_core/PCM_Core_Debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/s3v3rian/audio_core/PCM_Core_Debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/s3v3rian/audio_core/PCM_Core_Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/s3v3rian/audio_core/PCM_Core_Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/s3v3rian/audio_core/PCM_Core_Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PCM_Core">
+				<Option output="/home/s3v3rian/audio_core/PCM_Core_Debug/libPCM_Core.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/s3v3rian/audio_core/PCM_Core_Debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DPCM_CORE_LIBRARY"/>
+					<Add option="-D__LINUX_SYSTEM__"/>
+					<Add directory="/home/s3v3rian/audio_core/PCM_Core_Debug"/>
+					<Add directory="/home/s3v3rian/audio_core/PCM_Core"/>
+					<Add directory="/home/s3v3rian/audio_core/PCM_Core/../Infrastructure_Core/Debug/includes"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/s3v3rian/audio_core/PCM_Core_Debug/Makefile&quot;  VERBOSE=1 PCM_Core"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/s3v3rian/audio_core/PCM_Core_Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/s3v3rian/audio_core/PCM_Core_Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/s3v3rian/audio_core/PCM_Core_Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PCM_Core/fast">
+				<Option output="/home/s3v3rian/audio_core/PCM_Core_Debug/libPCM_Core.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/s3v3rian/audio_core/PCM_Core_Debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DPCM_CORE_LIBRARY"/>
+					<Add option="-D__LINUX_SYSTEM__"/>
+					<Add directory="/home/s3v3rian/audio_core/PCM_Core_Debug"/>
+					<Add directory="/home/s3v3rian/audio_core/PCM_Core"/>
+					<Add directory="/home/s3v3rian/audio_core/PCM_Core/../Infrastructure_Core/Debug/includes"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/s3v3rian/audio_core/PCM_Core_Debug/Makefile&quot;  VERBOSE=1 PCM_Core/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/s3v3rian/audio_core/PCM_Core_Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/s3v3rian/audio_core/PCM_Core_Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/s3v3rian/audio_core/PCM_Core_Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/s3v3rian/audio_core/PCM_Core_Debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/s3v3rian/audio_core/PCM_Core_Debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/s3v3rian/audio_core/PCM_Core_Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/s3v3rian/audio_core/PCM_Core_Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/s3v3rian/audio_core/PCM_Core_Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/s3v3rian/audio_core/PCM_Core/applications/pcm_processor/CPcmProcessorApplication.cpp">
+			<Option target="PCM_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/PCM_Core/applications/pcm_processor/CPcmProcessorApplication.h">
+			<Option target="PCM_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/PCM_Core/applications/pcm_processor/logic/CAudioSourceProcessor.cpp">
+			<Option target="PCM_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/PCM_Core/applications/pcm_processor/logic/CAudioSourceProcessor.h">
+			<Option target="PCM_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/PCM_Core/applications/pcm_transform/CPcmTransformApplication.cpp">
+			<Option target="PCM_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/PCM_Core/applications/pcm_transform/CPcmTransformApplication.h">
+			<Option target="PCM_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/PCM_Core/applications/pcm_transform/logic/CPcmRecorder.cpp">
+			<Option target="PCM_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/PCM_Core/applications/pcm_transform/logic/CPcmRecorder.h">
+			<Option target="PCM_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/PCM_Core/common/PcmCoreDefinitions.h">
+			<Option target="PCM_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/PCM_Core/common/PcmCoreTypes.h">
+			<Option target="PCM_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/PCM_Core/factory/CPcmCoreFactory.cpp">
+			<Option target="PCM_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/PCM_Core/factory/CPcmCoreFactory.h">
+			<Option target="PCM_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/PCM_Core/services/audio_source/IAudioSourceService.cpp">
+			<Option target="PCM_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/PCM_Core/services/audio_source/IAudioSourceService.h">
+			<Option target="PCM_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/PCM_Core/services/audio_source/alsa/CAlsaCaptureService.cpp">
+			<Option target="PCM_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/PCM_Core/services/audio_source/alsa/CAlsaCaptureService.h">
+			<Option target="PCM_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/PCM_Core/services/audio_source/alsa/CAlsaParamsConfigurator.cpp">
+			<Option target="PCM_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/PCM_Core/services/audio_source/alsa/CAlsaParamsConfigurator.h">
+			<Option target="PCM_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/PCM_Core/services/audio_source/alsa/CAlsaPlaybackService.cpp">
+			<Option target="PCM_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/PCM_Core/services/audio_source/alsa/CAlsaPlaybackService.h">
+			<Option target="PCM_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/PCM_Core/services/audio_source/binary_file/CBinaryFileReaderService.cpp">
+			<Option target="PCM_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/PCM_Core/services/audio_source/binary_file/CBinaryFileReaderService.h">
+			<Option target="PCM_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/PCM_Core/services/audio_source/binary_file/CBinaryFileWriterService.cpp">
+			<Option target="PCM_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/PCM_Core/services/audio_source/binary_file/CBinaryFileWriterService.h">
+			<Option target="PCM_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/PCM_Core/services/filter_service/CFilterService.cpp">
+			<Option target="PCM_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/PCM_Core/services/filter_service/CFilterService.h">
+			<Option target="PCM_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/PCM_Core/services/filter_service/IFilterService.cpp">
+			<Option target="PCM_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/PCM_Core/services/filter_service/IFilterService.h">
+			<Option target="PCM_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/PCM_Core/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

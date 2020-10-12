@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Infrastructure_Core"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/s3v3rian/audio_core/Infrastructure_Core_Debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/s3v3rian/audio_core/Infrastructure_Core_Debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/s3v3rian/audio_core/Infrastructure_Core_Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/s3v3rian/audio_core/Infrastructure_Core_Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/s3v3rian/audio_core/Infrastructure_Core_Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/s3v3rian/audio_core/Infrastructure_Core_Debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/s3v3rian/audio_core/Infrastructure_Core_Debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/s3v3rian/audio_core/Infrastructure_Core_Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/s3v3rian/audio_core/Infrastructure_Core_Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/s3v3rian/audio_core/Infrastructure_Core_Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Infrastructure_Core">
+				<Option output="/home/s3v3rian/audio_core/Infrastructure_Core_Debug/libInfrastructure_Core.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/s3v3rian/audio_core/Infrastructure_Core_Debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DINFRASTRUCTURE_CORE_LIBRARY"/>
+					<Add option="-D__LINUX_SYSTEM__"/>
+					<Add directory="/home/s3v3rian/audio_core/Infrastructure_Core_Debug"/>
+					<Add directory="/home/s3v3rian/audio_core/Infrastructure_Core"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/s3v3rian/audio_core/Infrastructure_Core_Debug/Makefile&quot;  VERBOSE=1 Infrastructure_Core"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/s3v3rian/audio_core/Infrastructure_Core_Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/s3v3rian/audio_core/Infrastructure_Core_Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/s3v3rian/audio_core/Infrastructure_Core_Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Infrastructure_Core/fast">
+				<Option output="/home/s3v3rian/audio_core/Infrastructure_Core_Debug/libInfrastructure_Core.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/s3v3rian/audio_core/Infrastructure_Core_Debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DINFRASTRUCTURE_CORE_LIBRARY"/>
+					<Add option="-D__LINUX_SYSTEM__"/>
+					<Add directory="/home/s3v3rian/audio_core/Infrastructure_Core_Debug"/>
+					<Add directory="/home/s3v3rian/audio_core/Infrastructure_Core"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/s3v3rian/audio_core/Infrastructure_Core_Debug/Makefile&quot;  VERBOSE=1 Infrastructure_Core/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/s3v3rian/audio_core/Infrastructure_Core_Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/s3v3rian/audio_core/Infrastructure_Core_Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/s3v3rian/audio_core/Infrastructure_Core_Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/s3v3rian/audio_core/Infrastructure_Core_Debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/s3v3rian/audio_core/Infrastructure_Core_Debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/s3v3rian/audio_core/Infrastructure_Core_Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/s3v3rian/audio_core/Infrastructure_Core_Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/s3v3rian/audio_core/Infrastructure_Core_Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/common/CommonDefinitions.h">
+			<Option target="Infrastructure_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/common/IControlPlane.cpp">
+			<Option target="Infrastructure_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/common/IControlPlane.h">
+			<Option target="Infrastructure_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/common/IPcmCore.cpp">
+			<Option target="Infrastructure_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/common/IPcmCore.h">
+			<Option target="Infrastructure_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/common/IRtpCore.cpp">
+			<Option target="Infrastructure_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/common/IRtpCore.h">
+			<Option target="Infrastructure_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/common/objects/CVoiceFrameElement.cpp">
+			<Option target="Infrastructure_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/common/objects/CVoiceFrameElement.h">
+			<Option target="Infrastructure_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/components/IApplication.cpp">
+			<Option target="Infrastructure_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/components/IApplication.h">
+			<Option target="Infrastructure_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/components/IComponent.cpp">
+			<Option target="Infrastructure_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/components/IComponent.h">
+			<Option target="Infrastructure_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/components/IConnector.cpp">
+			<Option target="Infrastructure_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/components/IConnector.h">
+			<Option target="Infrastructure_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/components/IConnectorEventListener.cpp">
+			<Option target="Infrastructure_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/components/IConnectorEventListener.h">
+			<Option target="Infrastructure_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/components/IDevice.cpp">
+			<Option target="Infrastructure_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/components/IDevice.h">
+			<Option target="Infrastructure_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/components/IEventListener.cpp">
+			<Option target="Infrastructure_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/components/IEventListener.h">
+			<Option target="Infrastructure_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/components/IEventSender.cpp">
+			<Option target="Infrastructure_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/components/IEventSender.h">
+			<Option target="Infrastructure_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/components/IFactory.cpp">
+			<Option target="Infrastructure_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/components/IFactory.h">
+			<Option target="Infrastructure_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/components/ILifeCycle.cpp">
+			<Option target="Infrastructure_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/components/ILifeCycle.h">
+			<Option target="Infrastructure_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/components/IService.cpp">
+			<Option target="Infrastructure_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/components/IService.h">
+			<Option target="Infrastructure_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/configuration/CConfiguration.cpp">
+			<Option target="Infrastructure_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/configuration/CConfiguration.h">
+			<Option target="Infrastructure_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/configuration/IConfigurationParser.cpp">
+			<Option target="Infrastructure_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/configuration/IConfigurationParser.h">
+			<Option target="Infrastructure_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/configuration/XML/CConfigurationXmlParser.cpp">
+			<Option target="Infrastructure_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/configuration/XML/CConfigurationXmlParser.h">
+			<Option target="Infrastructure_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/configuration/XML/tinyxml2.cpp">
+			<Option target="Infrastructure_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/configuration/XML/tinyxml2.h">
+			<Option target="Infrastructure_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/disruptor/CDeepDisruptorElement.cpp">
+			<Option target="Infrastructure_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/disruptor/CDeepDisruptorElement.h">
+			<Option target="Infrastructure_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/disruptor/CDisruptor.cpp">
+			<Option target="Infrastructure_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/disruptor/CDisruptor.h">
+			<Option target="Infrastructure_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/disruptor/CDisruptorConsumerBlockingStrategy.cpp">
+			<Option target="Infrastructure_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/disruptor/CDisruptorConsumerBlockingStrategy.h">
+			<Option target="Infrastructure_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/disruptor/CDisruptorElement.cpp">
+			<Option target="Infrastructure_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/disruptor/CDisruptorElement.h">
+			<Option target="Infrastructure_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/disruptor/CDisruptorElementFactory.cpp">
+			<Option target="Infrastructure_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/disruptor/CDisruptorElementFactory.h">
+			<Option target="Infrastructure_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/disruptor/IDisruptorConsumer.h">
+			<Option target="Infrastructure_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/disruptor/IDisruptorConsumerStrategy.cpp">
+			<Option target="Infrastructure_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/disruptor/IDisruptorConsumerStrategy.h">
+			<Option target="Infrastructure_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/list/CArrayVector.h">
+			<Option target="Infrastructure_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/list/IList.h">
+			<Option target="Infrastructure_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/logger/CLogger.cpp">
+			<Option target="Infrastructure_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/logger/CLogger.h">
+			<Option target="Infrastructure_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/map/IMap.h">
+			<Option target="Infrastructure_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/pool/IPool.cpp">
+			<Option target="Infrastructure_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/pool/IPool.h">
+			<Option target="Infrastructure_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/pool/IPoolElement.cpp">
+			<Option target="Infrastructure_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/pool/IPoolElement.h">
+			<Option target="Infrastructure_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/pool/IPoolElementFactory.cpp">
+			<Option target="Infrastructure_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/pool/IPoolElementFactory.h">
+			<Option target="Infrastructure_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/pool/ring_buffer/CRingBuffer.cpp">
+			<Option target="Infrastructure_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/pool/ring_buffer/CRingBuffer.h">
+			<Option target="Infrastructure_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/pool/ring_buffer/CRingBufferMultipleProducerStrategy.cpp">
+			<Option target="Infrastructure_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/pool/ring_buffer/CRingBufferMultipleProducerStrategy.h">
+			<Option target="Infrastructure_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/pool/ring_buffer/CRingBufferSingleProducerStrategy.cpp">
+			<Option target="Infrastructure_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/pool/ring_buffer/CRingBufferSingleProducerStrategy.h">
+			<Option target="Infrastructure_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/pool/ring_buffer/IRingBufferProducerStrategy.h">
+			<Option target="Infrastructure_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/queue/CBlockingQueue.h">
+			<Option target="Infrastructure_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/queue/CMPSCLockFreeQueue.h">
+			<Option target="Infrastructure_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/queue/CSPSCLockFreeQueue.h">
+			<Option target="Infrastructure_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/queue/IQueue.h">
+			<Option target="Infrastructure_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/task/IScheduledTask.cpp">
+			<Option target="Infrastructure_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/task/IScheduledTask.h">
+			<Option target="Infrastructure_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/task/ITask.cpp">
+			<Option target="Infrastructure_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/task/ITask.h">
+			<Option target="Infrastructure_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/time/CStopWatch.cpp">
+			<Option target="Infrastructure_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/time/CStopWatch.h">
+			<Option target="Infrastructure_Core"/>
+		</Unit>
+		<Unit filename="/home/s3v3rian/audio_core/Infrastructure_Core/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

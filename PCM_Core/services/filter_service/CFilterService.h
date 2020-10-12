@@ -1,0 +1,10 @@
+#ifndef PCM_CORE_SERVICS_FILTER_SERVICE_CFILTERSERVICE_H
+#define PCM_CORE_SERVICS_FILTER_SERVICE_CFILTERSERVICE_H
+
+class CFilterService
+{
+public:
+    CFilterService();
+};
+
+#endif // CFILTERSERVICE_H

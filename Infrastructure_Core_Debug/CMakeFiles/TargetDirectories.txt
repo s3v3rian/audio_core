@@ -1,0 +1,3 @@
+/home/s3v3rian/audio_core/Infrastructure_Core_Debug/CMakeFiles/rebuild_cache.dir
+/home/s3v3rian/audio_core/Infrastructure_Core_Debug/CMakeFiles/Infrastructure_Core.dir
+/home/s3v3rian/audio_core/Infrastructure_Core_Debug/CMakeFiles/edit_cache.dir

@@ -1,0 +1,9 @@
+<config>
+        <audio_source value="capture">
+                <source_locator	value="/dev/plughw0"/>
+                <period_size_in_us value="5000"/>
+                <frame_sample_rate_in_hz value="48000"/>
+                <is_interleaved value="true"/>
+                <number_of_channels value="1"/>
+        </audio_source>
+</config>

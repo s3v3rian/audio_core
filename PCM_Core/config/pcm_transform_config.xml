@@ -1,0 +1,11 @@
+<config>
+        <transform>
+                <id value="0"/>
+                <frame_size_in_bytes value="120"/>
+                <filter>
+                        <library value="APipp"/>
+                        <name value="nrfss"/>
+                        <options value=""/>
+                </filter>
+        </transform>
+</config>

@@ -1,0 +1,14 @@
+<config>
+        <connector>
+                <!-- Common Connector Parameters -->
+                <name value="RtpControlsConnector"/>
+                <type value="UDP"/>
+                <source value="eth0"/>
+                <destination value="10.0.0.125"/>
+                <ring_buffer_element_size value="1024" desc="Always use a power of 2 value"/>
+                <ring_buffer_size value="8" desc="Always use a power of 2 value"/>
+                <!-- UDP Connector Parameters -->
+                <source_port value="5555"/>
+                <destination_port value="4444"/>
+        </connector>
+</config>

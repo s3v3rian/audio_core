@@ -1,0 +1,14 @@
+#ifndef PCM_CORE_COMMON_PCMCOREDEFINITIONS_H
+#define PCM_CORE_COMMON_PCMCOREDEFINITIONS_H
+
+#include <cstdint>
+
+enum class EN_PcmCoreComponents {
+
+    AUDIO_SOURCE_SERVICE,
+    FILTER_SERVICE,
+};
+
+constexpr uint32_t PCM_CORE_MAX_NUMBER_OF_FILTERS_IN_TRANSFORM_PATH					= 10;
+
+#endif // PCMCOREDEFINITIONS_H
