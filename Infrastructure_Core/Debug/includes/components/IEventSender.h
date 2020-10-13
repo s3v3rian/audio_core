@@ -10,7 +10,7 @@ class IEventSender {
         IEventSender();
         virtual ~IEventSender();
 
-        virtual void Send(int32_t n32EventId, char *pchBuffer, uint32_t un32BufferSize, void *pvSource) = 0;
+        virtual int32_t Send(int32_t n32EventId, char *pchBuffer, uint32_t un32BufferSize, void *pvSource) = 0;
 };
 
 #endif // IEVENTSENDER_H

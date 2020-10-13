@@ -7,6 +7,8 @@
 #IncludeRegexTransform: 
 
 /home/s3v3rian/audio_core/Infrastructure_Core/common/CommonDefinitions.h
+cstdint
+-
 
 /home/s3v3rian/audio_core/Infrastructure_Core/common/IControlPlane.cpp
 IControlPlane.h

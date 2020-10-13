@@ -21,7 +21,7 @@ class IDevice : public IComponent, public IEventSender, public IConnectorEventLi
     protected:
 
         virtual void NotifyListeners(int32_t n32EventId, char *pchBuffer, uint32_t un32Size) noexcept;
-        virtual IEventSender *GetSender() noexcept;
+        virtual int32_t NotifySender(char *pchBuffer, uint32_t un32BufferSize, void *pvSource) noexcept;
 
     private:
 

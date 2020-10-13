@@ -5,10 +5,6 @@
 #include "components/IEventListener.h"
 #include "common/objects/CVoiceFrameElement.h"
 
-enum class EN_RtpCoreEvent {
-
-};
-
 struct SRtpPacketDetails {
 
     uint64_t m_un64SessionID;

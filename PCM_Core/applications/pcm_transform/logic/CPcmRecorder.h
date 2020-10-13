@@ -3,10 +3,17 @@
 
 #include "components/IDevice.h"
 
-class CPcmRecorder
-{
-public:
-    CPcmRecorder();
+class CPcmRecorder {
+
+    public:
+
+        CPcmRecorder();
+
+        void SetDevice(IDevice *pcDevice) noexcept;
+
+    private:
+
+        IDevice *m_pcRecorderDevice;
 };
 
 #endif // CPCMRECORDER_H

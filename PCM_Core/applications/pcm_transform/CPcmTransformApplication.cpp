@@ -30,9 +30,9 @@ bool CPcmTransformApplication::Init(const std::string &File) noexcept {
 
 void CPcmTransformApplication::AddMate(IComponent *pcMate) noexcept {
 
-    EN_PcmCoreComponents eComponent = static_cast<EN_PcmCoreComponents>(pcMate->ID());
+    EN_PcmCoreComponent eComponent = static_cast<EN_PcmCoreComponent>(pcMate->ID());
     switch(eComponent) {
-        case EN_PcmCoreComponents::FILTER_SERVICE:
+        case EN_PcmCoreComponent::FILTER_SERVICE:
             m_pcFilters->Add(static_cast<IFilterService*>(pcMate));
             break;
         default:

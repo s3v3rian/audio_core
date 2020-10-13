@@ -6,11 +6,15 @@
 
 #IncludeRegexTransform: 
 
+/home/s3v3rian/audio_core/PCM_Core/../Infrastructure_Core/Debug/includes/common/CommonDefinitions.h
+cstdint
+-
+
 /home/s3v3rian/audio_core/PCM_Core/../Infrastructure_Core/Debug/includes/common/IPcmCore.h
 components/IApplication.h
 /home/s3v3rian/audio_core/PCM_Core/../Infrastructure_Core/Debug/includes/common/components/IApplication.h
-components/IListener.h
-/home/s3v3rian/audio_core/PCM_Core/../Infrastructure_Core/Debug/includes/common/components/IListener.h
+components/IEventListener.h
+/home/s3v3rian/audio_core/PCM_Core/../Infrastructure_Core/Debug/includes/common/components/IEventListener.h
 common/objects/CVoiceFrameElement.h
 /home/s3v3rian/audio_core/PCM_Core/../Infrastructure_Core/Debug/includes/common/common/objects/CVoiceFrameElement.h
 
@@ -19,26 +23,54 @@ disruptor/CDeepDisruptorElement.h
 /home/s3v3rian/audio_core/PCM_Core/../Infrastructure_Core/Debug/includes/common/objects/disruptor/CDeepDisruptorElement.h
 
 /home/s3v3rian/audio_core/PCM_Core/../Infrastructure_Core/Debug/includes/components/IApplication.h
+common/CommonDefinitions.h
+/home/s3v3rian/audio_core/PCM_Core/../Infrastructure_Core/Debug/includes/components/common/CommonDefinitions.h
 components/IComponent.h
 /home/s3v3rian/audio_core/PCM_Core/../Infrastructure_Core/Debug/includes/components/components/IComponent.h
 
 /home/s3v3rian/audio_core/PCM_Core/../Infrastructure_Core/Debug/includes/components/IComponent.h
 string
 -
+common/CommonDefinitions.h
+/home/s3v3rian/audio_core/PCM_Core/../Infrastructure_Core/Debug/includes/components/common/CommonDefinitions.h
 components/ILifeCycle.h
 /home/s3v3rian/audio_core/PCM_Core/../Infrastructure_Core/Debug/includes/components/components/ILifeCycle.h
 
+/home/s3v3rian/audio_core/PCM_Core/../Infrastructure_Core/Debug/includes/components/IConnectorEventListener.h
+components/IEventListener.h
+/home/s3v3rian/audio_core/PCM_Core/../Infrastructure_Core/Debug/includes/components/components/IEventListener.h
+
+/home/s3v3rian/audio_core/PCM_Core/../Infrastructure_Core/Debug/includes/components/IDevice.h
+common/CommonDefinitions.h
+/home/s3v3rian/audio_core/PCM_Core/../Infrastructure_Core/Debug/includes/components/common/CommonDefinitions.h
+components/IComponent.h
+/home/s3v3rian/audio_core/PCM_Core/../Infrastructure_Core/Debug/includes/components/components/IComponent.h
+components/IEventSender.h
+/home/s3v3rian/audio_core/PCM_Core/../Infrastructure_Core/Debug/includes/components/components/IEventSender.h
+components/IConnectorEventListener.h
+/home/s3v3rian/audio_core/PCM_Core/../Infrastructure_Core/Debug/includes/components/components/IConnectorEventListener.h
+list/IList.h
+/home/s3v3rian/audio_core/PCM_Core/../Infrastructure_Core/Debug/includes/components/list/IList.h
+
+/home/s3v3rian/audio_core/PCM_Core/../Infrastructure_Core/Debug/includes/components/IEventListener.h
+cstdint
+-
+
+/home/s3v3rian/audio_core/PCM_Core/../Infrastructure_Core/Debug/includes/components/IEventSender.h
+cstdint
+-
+
 /home/s3v3rian/audio_core/PCM_Core/../Infrastructure_Core/Debug/includes/components/IFactory.h
+common/CommonDefinitions.h
+/home/s3v3rian/audio_core/PCM_Core/../Infrastructure_Core/Debug/includes/components/common/CommonDefinitions.h
 components/IComponent.h
 /home/s3v3rian/audio_core/PCM_Core/../Infrastructure_Core/Debug/includes/components/components/IComponent.h
 
 /home/s3v3rian/audio_core/PCM_Core/../Infrastructure_Core/Debug/includes/components/ILifeCycle.h
 
-/home/s3v3rian/audio_core/PCM_Core/../Infrastructure_Core/Debug/includes/components/IListener.h
-cstdint
--
-
 /home/s3v3rian/audio_core/PCM_Core/../Infrastructure_Core/Debug/includes/components/IService.h
+common/CommonDefinitions.h
+/home/s3v3rian/audio_core/PCM_Core/../Infrastructure_Core/Debug/includes/components/common/CommonDefinitions.h
 components/IComponent.h
 /home/s3v3rian/audio_core/PCM_Core/../Infrastructure_Core/Debug/includes/components/components/IComponent.h
 
@@ -47,6 +79,8 @@ cstdint
 -
 map
 -
+list/IList.h
+/home/s3v3rian/audio_core/PCM_Core/../Infrastructure_Core/Debug/includes/configuration/list/IList.h
 configuration/IConfigurationParser.h
 /home/s3v3rian/audio_core/PCM_Core/../Infrastructure_Core/Debug/includes/configuration/configuration/IConfigurationParser.h
 
@@ -105,14 +139,16 @@ disruptor/CDisruptor.h
 /home/s3v3rian/audio_core/PCM_Core/../Infrastructure_Core/Debug/includes/logger/disruptor/CDisruptor.h
 
 /home/s3v3rian/audio_core/PCM_Core/../Infrastructure_Core/Debug/includes/pool/IPool.h
-cstdint
--
+pool/IPoolElementFactory.h
+/home/s3v3rian/audio_core/PCM_Core/../Infrastructure_Core/Debug/includes/pool/pool/IPoolElementFactory.h
 
 /home/s3v3rian/audio_core/PCM_Core/../Infrastructure_Core/Debug/includes/pool/IPoolElement.h
 cstdint
 -
-pool/IPool.h
-/home/s3v3rian/audio_core/PCM_Core/../Infrastructure_Core/Debug/includes/pool/pool/IPool.h
+
+/home/s3v3rian/audio_core/PCM_Core/../Infrastructure_Core/Debug/includes/pool/IPoolElementFactory.h
+pool/IPoolElement.h
+/home/s3v3rian/audio_core/PCM_Core/../Infrastructure_Core/Debug/includes/pool/pool/IPoolElement.h
 
 /home/s3v3rian/audio_core/PCM_Core/../Infrastructure_Core/Debug/includes/queue/IQueue.h
 cstdint
@@ -169,6 +205,8 @@ CPcmRecorder.h
 /home/s3v3rian/audio_core/PCM_Core/applications/pcm_transform/logic/CPcmRecorder.h
 
 /home/s3v3rian/audio_core/PCM_Core/applications/pcm_transform/logic/CPcmRecorder.h
+components/IDevice.h
+/home/s3v3rian/audio_core/PCM_Core/applications/pcm_transform/logic/components/IDevice.h
 
 /home/s3v3rian/audio_core/PCM_Core/common/PcmCoreDefinitions.h
 cstdint

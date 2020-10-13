@@ -5,12 +5,6 @@
 #include "components/IEventListener.h"
 #include "common/objects/CVoiceFrameElement.h"
 
-enum class EN_PcmCoreEvent {
-
-    NEW_SOURCE_AUDIO		= 128,
-    SOURCE_FATAL_ERROR,
-};
-
 struct SPcmAudioDetails {
 
     int32_t m_n32SampleRate;

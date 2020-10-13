@@ -3,10 +3,33 @@
 
 #include <cstdint>
 
-enum class EN_PcmCoreComponents {
+enum class EN_PcmCoreComponent {
+
+    // ------------------------------------------------
+    // ---------------- Applications ------------------
+    // ------------------------------------------------
+
+    PCM_PROCESSOR_APPLICATION,
+    PCM_TRANSFORM_APPLICATION,
+
+    // ------------------------------------------------
+    // ------------------ Services --------------------
+    // ------------------------------------------------
 
     AUDIO_SOURCE_SERVICE,
     FILTER_SERVICE,
+
+    // ------------------------------------------------
+    // ------------------ Devices --------------------
+    // ------------------------------------------------
+
+    RECORDER_DEVICE,
+};
+
+enum class EN_PcmCoreEvent {
+
+    NEW_AUDIO_CAPTURE_FRAME,
+    NEW_AUDIO_PLAYBACK_FRAME,
 };
 
 constexpr uint32_t PCM_CORE_MAX_NUMBER_OF_FILTERS_IN_TRANSFORM_PATH					= 10;
