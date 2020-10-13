@@ -1,0 +1,7 @@
+*.o
+*.d
+*.log
+Infrastructure_Core_Debug/*
+Infrastructure_Core_Debug/*.*
+PCM_Core_Debug/*
+PCM_Core_Debug/*.*

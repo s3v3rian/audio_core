@@ -10,9 +10,9 @@ constexpr char RSDK_APPLICATION_COMPONENT_TYPE[]			= "RsdkApplication";
 constexpr char RSDK_SERVICE_COMPONENT_TYPE[]				= "RsdkService";
 constexpr char RSDK_DEVICE_COMPONENT_TYPE[]					= "RsdkDevice";
 
-constexpr uint32_t PCM_CORE_EVENTS_ID_						= 128;
-constexpr uint32_t RTP_CORE_EVENTS_ID_						= 256;
-constexpr uint32_t CONTROL_PLANE_EVENTS_ID_					= 384;
+constexpr uint32_t PCM_CORE_EVENTS_ID						= 128;
+constexpr uint32_t RTP_CORE_EVENTS_ID						= 256;
+constexpr uint32_t CONTROL_PLANE_EVENTS_ID					= 384;
 constexpr uint32_t CONTROLLER_EVENTS_ID						= 512;
 
 #endif // COMMONDEFINITIONS_H

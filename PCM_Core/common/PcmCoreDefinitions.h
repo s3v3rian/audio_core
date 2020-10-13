@@ -1,7 +1,7 @@
 #ifndef PCM_CORE_COMMON_PCMCOREDEFINITIONS_H
 #define PCM_CORE_COMMON_PCMCOREDEFINITIONS_H
 
-#include <cstdint>
+#include "common/CommonDefinitions.h"
 
 enum class EN_PcmCoreComponent {
 
@@ -28,7 +28,7 @@ enum class EN_PcmCoreComponent {
 
 enum class EN_PcmCoreEvent {
 
-    NEW_AUDIO_CAPTURE_FRAME,
+    NEW_AUDIO_CAPTURE_FRAME				= PCM_CORE_EVENTS_ID_,
     NEW_AUDIO_PLAYBACK_FRAME,
 };
 
